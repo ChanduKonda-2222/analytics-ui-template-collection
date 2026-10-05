@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analytics UI Template Collection - a collaborative collection of modern analytics templates.">
+    <title>Analytics UI Template Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-grid"></div>
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+
+    <header class="site-header">
+        <a href="#" class="brand">
+            <span class="brand-icon">📊</span>
+            <span>Analytics UI</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#members">Members</a>
+            <a href="#templates">Templates</a>
+            <a href="#workflow">Workflow</a>
+        </nav>
+
+        <a class="github-btn" href="https://github.com/" target="_blank" rel="noopener">
+            GitHub ↗
+        </a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                Collaborative UI Template Collection
+            </div>
+
+            <h1>
+                Modern Analytics<br>
+                <span>UI Templates</span>
+            </h1>
+
+            <p class="hero-text">
+                Explore a collection of responsive dashboards and analytics interfaces
+                created collaboratively using HTML, CSS, JavaScript and GitHub.
+            </p>
+
+            <div class="hero-actions">
+                <button class="primary-btn" id="exploreBtn">Explore Templates ↓</button>
+                <a class="secondary-btn" href="#workflow">View Workflow</a>
+            </div>
+
+            <div class="hero-mini-stats">
+                <div><strong>05</strong><span>Members</span></div>
+                <div><strong>15</strong><span>Templates</span></div>
+                <div><strong>03</strong><span>Technologies</span></div>
+                <div><strong>100%</strong><span>Responsive</span></div>
+            </div>
+        </section>
+
+        <section class="section" id="members">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">OUR TEAM</span>
+                    <h2>Five members. One collection.</h2>
+                </div>
+                <p>Choose a category to explore the templates contributed by each team member.</p>
+            </div>
+
+            <div class="member-grid">
+                <article class="member-card" data-member="1">
+                    <div class="card-top">
+                        <span class="member-number">01</span>
+                        <span class="category-icon">📈</span>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p class="category">Analytics Overview</p>
+                    <p class="card-description">Core dashboards for monitoring KPIs, summaries and customizable business insights.</p>
+                    <div class="template-count">3 Templates</div>
+                    <button class="view-member" data-target="member-1-analytics">View templates →</button>
+                </article>
+
+                <article class="member-card" data-member="2">
+                    <div class="card-top">
+                        <span class="member-number">02</span>
+                        <span class="category-icon">💰</span>
+                    </div>
+                    <h3>Revenue</h3>
+                    <p class="category">Revenue &amp; Sales</p>
+                    <p class="card-description">Interfaces for revenue tracking, sales performance and financial reporting.</p>
+                    <div class="template-count">3 Templates</div>
+                    <button class="view-member" data-target="member-2-revenue-sales">View templates →</button>
+                </article>
+
+                <article class="member-card featured" data-member="3">
+                    <div class="featured-label">YOUR GROUP</div>
+                    <div class="card-top">
+                        <span class="member-number">03</span>
+                        <span class="category-icon">👥</span>
+                    </div>
+                    <h3>Customer </h3>
+                    <p class="category">User &amp; Customer Analytics</p>
+                    <p class="card-description">User behavior, customer insights and retention analysis interfaces.</p>
+                    <div class="template-count">3 Templates</div>
+                    <button class="view-member" data-target="member-3-user-customer">View templates →</button>
+                </article>
+
+                <article class="member-card" data-member="4">
+                    <div class="card-top">
+                        <span class="member-number">04</span>
+                        <span class="category-icon">📣</span>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p class="category">Marketing Analytics</p>
+                    <p class="card-description">Marketing performance, conversion funnels and campaign analytics templates.</p>
+                    <div class="template-count">3 Templates</div>
+                    <button class="view-member" data-target="member-4-marketing">View templates →</button>
+                </article>
+
+                <article class="member-card" data-member="5">
+                    <div class="card-top">
+                        <span class="member-number">05</span>
+                        <span class="category-icon">⚡</span>
+                    </div>
+                    <h3>realtime-dashboard</h3>
+                    <p class="category">Real-Time Analytics</p>
+                    <p class="card-description">Live dashboards and monitoring interfaces for continuously changing data.</p>
+                    <div class="template-count">3 Templates</div>
+                    <button class="view-member" data-target="member-5-realtime">View templates →</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="templates">
+            <div class="section-heading centered">
+                <span class="eyebrow">15 UI TEMPLATES</span>
+                <h2>Explore the collection</h2>
+                <p>All links below follow the exact folder structure of the GitHub repository.</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Templates</button>
+                <button class="filter-btn" data-filter="member-1">Member 1</button>
+                <button class="filter-btn" data-filter="member-2">Member 2</button>
+                <button class="filter-btn" data-filter="member-3">Member 3</button>
+                <button class="filter-btn" data-filter="member-4">Member 4</button>
+                <button class="filter-btn" data-filter="member-5">Member 5</button>
+            </div>
+
+            <div class="template-grid">
+
+                <a class="template-card member-1" href="member-1-analytics/overview-dashboard/index.html">
+                    <span class="template-icon">📊</span>
+                    <div><small>MEMBER 1 · ANALYTICS</small><h3>Overview Dashboard</h3><p>High-level business performance overview.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-1" href="member-1-analytics/kpi-dashboard/index.html">
+                    <span class="template-icon">🎯</span>
+                    <div><small>MEMBER 1 · ANALYTICS</small><h3>KPI Dashboard</h3><p>Key performance indicators at a glance.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-1" href="member-1-analytics/customizable-dashboard/index.html">
+                    <span class="template-icon">⚙️</span>
+                    <div><small>MEMBER 1 · ANALYTICS</small><h3>Customizable Dashboard</h3><p>Flexible dashboard layout and widgets.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-2" href="member-2-revenue-sales/revenue-dashboard/index.html">
+                    <span class="template-icon">💵</span>
+                    <div><small>MEMBER 2 · REVENUE</small><h3>Revenue Dashboard</h3><p>Revenue trends and financial performance.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-2" href="member-2-revenue-sales/sales-analytics/index.html">
+                    <span class="template-icon">📈</span>
+                    <div><small>MEMBER 2 · SALES</small><h3>Sales Analytics</h3><p>Sales metrics, targets and performance.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-2" href="member-2-revenue-sales/financial-reports/index.html">
+                    <span class="template-icon">🧾</span>
+                    <div><small>MEMBER 2 · FINANCE</small><h3>Financial Reports</h3><p>Clean reporting interface for financial data.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-3" href="member-3-user-customer/user-analytics/index.html">
+                    <span class="template-icon">👤</span>
+                    <div><small>MEMBER 3 · USERS</small><h3>User Analytics</h3><p>Track users, activity and engagement.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-3" href="member-3-user-customer/customer-analytics/index.html">
+                    <span class="template-icon">👥</span>
+                    <div><small>MEMBER 3 · CUSTOMERS</small><h3>Customer Analytics</h3><p>Understand customer behavior and value.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-3" href="member-3-user-customer/retention-cohort/index.html">
+                    <span class="template-icon">🔄</span>
+                    <div><small>MEMBER 3 · RETENTION</small><h3>Retention &amp; Cohort</h3><p>Analyze retention and cohort behavior.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-4" href="member-4-marketing/marketing-dashboard/index.html">
+                    <span class="template-icon">📣</span>
+                    <div><small>MEMBER 4 · MARKETING</small><h3>Marketing Dashboard</h3><p>Campaign and marketing performance overview.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-4" href="member-4-marketing/conversion-funnel/index.html">
+                    <span class="template-icon">🔻</span>
+                    <div><small>MEMBER 4 · CONVERSION</small><h3>Conversion Funnel</h3><p>Visualize each stage of the customer journey.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-4" href="member-4-marketing/campaign-analytics/index.html">
+                    <span class="template-icon">📢</span>
+                    <div><small>MEMBER 4 · CAMPAIGNS</small><h3>Campaign Analytics</h3><p>Compare campaign results and engagement.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-5" href="member-5-realtime/realtime-dashboard/index.html">
+                    <span class="template-icon">⚡</span>
+                    <div><small>MEMBER 5 · REAL-TIME</small><h3>Real-Time Dashboard</h3><p>Monitor continuously updating analytics.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-5" href="member-5-realtime/live-activity-monitor/index.html">
+                    <span class="template-icon">🟢</span>
+                    <div><small>MEMBER 5 · LIVE ACTIVITY</small><h3>Live Activity Monitor</h3><p>Watch live events and user activity.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="template-card member-5" href="member-5-realtime/analytics-monitoring/index.html">
+                    <span class="template-icon">🖥️</span>
+                    <div><small>MEMBER 5 · MONITORING</small><h3>Analytics Monitoring</h3><p>Monitor metrics, alerts and system health.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="section workflow-section" id="workflow">
+            <div class="section-heading centered">
+                <span class="eyebrow">GITHUB COLLABORATION</span>
+                <h2>Our development workflow</h2>
+                <p>Every team member contributes through a structured GitHub workflow.</p>
+            </div>
+
+            <div class="workflow">
+                <div class="workflow-step"><b>01</b><span>Fork</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>02</b><span>Clone</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>03</b><span>Branch</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>04</b><span>Develop</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>05</b><span>Commit</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>06</b><span>Push</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>07</b><span>Pull Request</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>08</b><span>Review</span></div>
+                <i>→</i>
+                <div class="workflow-step"><b>09</b><span>Merge</span></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <strong>📊 Analytics UI Template Collection</strong>
+            <p>Modern UI • Team Collaboration • GitHub Workflow</p>
+        </div>
+        <p>Built with HTML, CSS &amp; JavaScript</p>
+    </footer>
+
+    <button class="top-btn" id="topBtn" aria-label="Back to top">↑</button>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
